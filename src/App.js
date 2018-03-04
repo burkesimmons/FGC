@@ -63,6 +63,26 @@ class App extends Component {
                   Gallery
                 </NavLink>
               </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Kokanee Salmon
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Lake Trout
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Lodging
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="https://github.com/reactstrap/reactstrap">
+                  Flaming Gorge History
+                </NavLink>
+              </NavItem>
             </Nav>
           </Collapse>
         </Navbar>
