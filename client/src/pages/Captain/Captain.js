@@ -1,10 +1,13 @@
 import React, { Component } from "react";
 import {
+<<<<<<< HEAD
   Card,
   CardTitle,
   CardText,
   CardBody,
   CardImg,
+=======
+>>>>>>> 505800dd8f3cd0ef083ff0682f807484013c39b5
   Collapse,
   Navbar,
   NavbarToggler,
@@ -20,12 +23,17 @@ import {
 } from 'reactstrap';
 
 
+<<<<<<< HEAD
 class Captain extends Component {
+=======
+class Detail extends Component {
+>>>>>>> 505800dd8f3cd0ef083ff0682f807484013c39b5
 
   render() {
     return (
      
      
+<<<<<<< HEAD
       <Row>
         <Col sm="12" md="6">
           <Card>
@@ -51,9 +59,24 @@ class Captain extends Component {
         </Col>
 
       </Row>
+=======
+      <Jumbotron>
+        <h1 className="display-3">Hello, world!</h1>
+        <p className="lead">This is a simple hero unit, a simple Jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr className="my-2" />
+        <p>It uses utility classes for typgraphy and spacing to space content out within the larger container.</p>
+        <p className="lead">
+          <Button color="primary">Learn More</Button>
+        </p>
+      </Jumbotron>
+>>>>>>> 505800dd8f3cd0ef083ff0682f807484013c39b5
     
     );
   }
 }
 
+<<<<<<< HEAD
 export default Captain;
+=======
+export default Detail;
+>>>>>>> 505800dd8f3cd0ef083ff0682f807484013c39b5
