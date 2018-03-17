@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import FGClogo from './FGClogo.png';
 import './Home.css';
 import {
   Collapse,
@@ -24,8 +23,17 @@ class Home extends Component {
   render() {
     return (
       <div style={{backgroundColor: 'white'}}>
-      
-          <Container className="container" style={{paddingTop: '10px'}}>
+        <Jumbotron fluid className="backgroundImage">
+           <Container fluid>
+            <img src="FGClogo.png" className="FGClogo d-flex justify-content-end"></img>
+            <h1 className="display-3">Your slogan</h1>
+            <p className="lead">A little blurb about what this is.</p>
+
+        </Container>
+        </Jumbotron>
+
+         
+          <Container style={{paddingTop: '10px'}}>
             <Row>
               <Col className="col-3">
                   <img src="PicsToUse/20160502_063214_001.jpg" className="sidePic"></img>
@@ -39,7 +47,7 @@ class Home extends Component {
               </Col>
               <Col className="col-6">
                 <Navbar style={{backgroundColor: 'white'}}>
-                  <img src={FGClogo} className="FGClogo"></img>
+                 <h2>To book your trip, call Captain Randy at #801-633-6603</h2>
                 </Navbar>
               </Col>
               <Col className="col-3">

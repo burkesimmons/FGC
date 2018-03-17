@@ -1,24 +1,14 @@
 import React, { Component } from "react";
 import {
-<<<<<<< HEAD
   Card,
   CardTitle,
   CardText,
   CardBody,
   CardImg,
-=======
->>>>>>> 505800dd8f3cd0ef083ff0682f807484013c39b5
   Collapse,
-  Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
   Container,
   Row,
   Col,
-  Jumbotron,
   Button
 } from 'reactstrap';
 
@@ -27,11 +17,11 @@ class Captain extends Component {
 
   render() {
     return (
-
+      <Container>
       <Row>
         <Col sm="12" md="6">
           <Card>
-            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+            <CardImg top width="100%" src="CaptainRandy.jpg" alt="Card image cap" />
             <CardBody>
               <CardTitle>Captain Randy Browning</CardTitle>
               <CardText>
@@ -42,9 +32,9 @@ class Captain extends Component {
         </Col>
         <Col sm="12" md="6">
           <Card>
-            <CardImg top width="100%" src="https://placeholdit.imgix.net/~text?txtsize=33&txt=318%C3%97180&w=318&h=180" alt="Card image cap" />
+            <CardImg top width="100%" src="CaptainFamily.jpg" alt="Card image cap" />
             <CardBody>
-              <CardTitle>Captain Randy Browning</CardTitle>
+              <CardTitle>Browning Family</CardTitle>
               <CardText>
                 My wife Tiffany and I, along with our 3 kids; Riley, Reagan, and Oakley, love waking up early to go spend time together on the lake chasing the famed trophy fish of Flaming Gorge.
               </CardText>
@@ -52,6 +42,7 @@ class Captain extends Component {
           </Card>
         </Col>
       </Row>
+      </Container>
     );
   }
 }
