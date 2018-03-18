@@ -34,7 +34,7 @@ class NavComplete extends Component {
 
 
 
-  <Navbar style={{backgroundColor: '#008066'}} sticky-top dark expand="lg">
+  <Navbar style={{backgroundColor: '#008066'}} dark expand="lg">
     <NavbarBrand href="/">Flaming Gorge Charters</NavbarBrand>
     <NavbarToggler onClick={this.toggle} />
      <Collapse isOpen={this.state.isOpen} navbar={true}>
@@ -49,29 +49,13 @@ class NavComplete extends Component {
           <NavLink href="/bring">Bring</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://github.com/reactstrap/reactstrap">
-            Gallery
-          </NavLink>
+          <NavLink href="gallery">Gallery</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://github.com/reactstrap/reactstrap">
-            Kokanee Salmon
-          </NavLink>
+          <NavLink href="/lodging">Lodging</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink href="https://github.com/reactstrap/reactstrap">
-            Lake Trout
-          </NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="https://github.com/reactstrap/reactstrap">
-            Lodging
-          </NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink href="https://github.com/reactstrap/reactstrap">
-            Flaming Gorge History
-          </NavLink>
+          <NavLink href="history">Flaming Gorge History</NavLink>
         </NavItem>
       </Nav>
     </Collapse>

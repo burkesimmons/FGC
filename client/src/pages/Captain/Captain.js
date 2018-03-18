@@ -17,7 +17,7 @@ class Captain extends Component {
 
   render() {
     return (
-      <Container>
+      <Container style={{paddingTop: '10px'}}>
       <Row>
         <Col sm="12" md="6">
           <Card>
