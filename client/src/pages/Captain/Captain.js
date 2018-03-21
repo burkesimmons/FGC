@@ -5,11 +5,9 @@ import {
   CardText,
   CardBody,
   CardImg,
-  Collapse,
   Container,
   Row,
-  Col,
-  Button
+  Col
 } from 'reactstrap';
 
 

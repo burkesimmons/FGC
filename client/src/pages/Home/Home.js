@@ -1,18 +1,11 @@
 import React, { Component } from 'react';
 import './Home.css';
 import {
-  Collapse,
   Navbar,
-  NavbarToggler,
-  NavbarBrand,
-  Nav,
-  NavItem,
-  NavLink,
   Container,
   Row,
   Col,
-  Jumbotron,
-  Button
+  Jumbotron
 } from 'reactstrap';
 
 
@@ -25,7 +18,7 @@ class Home extends Component {
       <div style={{backgroundColor: 'white'}}>
         <Jumbotron fluid className="backgroundImage">
            <Container fluid>
-            <img src="FGClogo.png" className="FGClogo d-flex justify-content-end"></img>
+            <img src="FGClogo.png" className="FGClogo d-flex justify-content-end" alt="Flaming Gorge Charters Logo"></img>
             <h1 className="display-3">Your slogan</h1>
             <p className="lead">A little blurb about what this is.</p>
 
@@ -44,7 +37,7 @@ class Home extends Component {
                 </Navbar>
               </Col>
               <Col className="col-3">
-                <img src="AshleyNationalForestPermit.png" style={{width: '100%'}}></img>
+                <img src="AshleyNationalForestPermit.png" style={{width: '100%'}} alt="Ashley National Forest Permit logo"></img>
               </Col>
             </Row>
           </Container>
