@@ -1,10 +1,10 @@
 .FGClogo {
-  width: 30%;
-  margin-top: 20px;
+  width: 40%;
+  margin: 70px;
 }
 
 .backgroundImage {
 	background-image: url(/hero1500.jpg);
-	background-repeat: no-repeat;
+	background-repeat: round;
 	background-size: cover;
 }

@@ -19,8 +19,6 @@ class Home extends Component {
         <Jumbotron fluid className="backgroundImage">
            <Container fluid>
             <img src="FGClogo.png" className="FGClogo d-flex justify-content-end" alt="Flaming Gorge Charters Logo"></img>
-            <h1 className="display-3">Your slogan</h1>
-            <p className="lead">A little blurb about what this is.</p>
 
         </Container>
         </Jumbotron>
