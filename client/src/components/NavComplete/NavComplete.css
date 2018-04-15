@@ -1,0 +1,8 @@
+@font-face {
+	font-family: Roman Antique;
+	src: url(/RomanAntique.ttf) format("truetype");
+}
+
+.romanFont {
+	font-family: Roman Antique, Verdana, Tahoma;
+}

@@ -17,14 +17,13 @@ class Home extends Component {
     return (
       <div style={{backgroundColor: 'white'}}>
         <Jumbotron fluid className="backgroundImage">
-           <Container fluid>
-            <img src="FGClogo.png" className="FGClogo d-flex justify-content-end" alt="Flaming Gorge Charters Logo"></img>
+         
+            <img src="FGClogo.png" className="FGClogo img-fluid" alt="Flaming Gorge Charters Logo"></img>
 
-        </Container>
         </Jumbotron>
 
          
-          <Container style={{paddingTop: '10px'}}>
+          <Container style={{padding: '10px'}}>
             <Row>
               <Col className="col-3">
                   
@@ -34,8 +33,8 @@ class Home extends Component {
                  <h2>To book your trip, call Captain Randy at #801-633-6603</h2>
                 </Navbar>
               </Col>
-              <Col className="col-3">
-                <img src="AshleyNationalForestPermit.png" style={{width: '100%'}} alt="Ashley National Forest Permit logo"></img>
+              <Col className="col-3 d-flex justify-content-end align-items-end">
+                <img src="AshleyNationalForestPermit.png" style={{width: '100px'}} alt="Ashley National Forest Permit logo"></img>
               </Col>
             </Row>
           </Container>

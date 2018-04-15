@@ -1,11 +1,11 @@
 .copyright {
 	display: inline-block !important;
-	padding: 0 !important;
+	padding-left: .5rem !important;
 }
 
 .fgcLogoFooter {
-	width: 80%;
-	padding: 2rem;
+	width: 200px;
+	padding: 10px;
 }
 
 .footerContainer {
@@ -13,5 +13,11 @@
 }
 
 .icons {
-	padding: 1rem;
+}
+
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 450px) {
+    .fgcLogoFooter {
+	width: 150px;
+}
 }

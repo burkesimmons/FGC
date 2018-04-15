@@ -1,2 +1,1 @@
-export * from "./Facebook";
-export * from "./Youtube";
+export * from "./Icons";

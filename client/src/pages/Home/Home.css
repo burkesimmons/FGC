@@ -1,10 +1,41 @@
 .FGClogo {
-  width: 40%;
-  margin: 70px;
+  width: 50%;
+  position: relative;
+  left: 10%;
+  top: 30px;
+  padding-bottom: 225px;
 }
 
 .backgroundImage {
-	background-image: url(/hero1500.jpg);
+	background-image: url(/hero450.jpg);
 	background-repeat: round;
 	background-size: cover;
+	padding: 1rem;
+}
+
+/* For devices 400px and larger: */
+@media only screen and (min-device-width: 450px) {
+    .backgroundImage { 
+        background-image: url(/hero1500.jpg); 
+    }
+    .FGClogo {
+      width: 350px;
+      position: relative;
+      left: 10%;
+      top: 0;
+      padding-bottom: 225px;
+    }
+}
+
+@media only screen and (min-device-width: 950px) {
+    .backgroundImage { 
+        background-image: url(/hero1500.jpg); 
+    }
+    .FGClogo {
+      width: 450px;
+      position: relative;
+      left: 10%;
+      top: 0;
+      padding-bottom: 225px;
+    }
 }

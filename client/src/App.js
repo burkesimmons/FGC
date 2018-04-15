@@ -11,10 +11,9 @@ import Lodging from './pages/Lodging';
 import History from './pages/History';
 import Gallery from './pages/Gallery';
 import fontawesome from '@fortawesome/fontawesome';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import { faFacebookF, faYoutube } from '@fortawesome/fontawesome-free-brands';
-
-fontawesome.library.add(faFacebookF, faYoutube);
+import brands from '@fortawesome/fontawesome-free-brands';
+import { faCheckSquare, faCoffee, faSpinner } from '@fortawesome/fontawesome-free-solid/';
+fontawesome.library.add(brands, faCheckSquare, faCoffee, faSpinner);
 
 const App = () =>
   <Router>
