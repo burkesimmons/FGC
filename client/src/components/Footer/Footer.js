@@ -26,7 +26,7 @@ class Footer extends Component {
             <img src="FGClogo.png" className="fgcLogoFooter img-fluid" alt="Flaming Gorge Charters Logo"></img>
           </Col>
           <Col className="d-flex justify-content-center align-items-center">
-            &copy; 2018<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, <NavLink className="copyright" href="https://burkesimmons.github.io/Responsive-Portfolio/">Burke Simmons.</NavLink>
+            &copy; 2019<script>new Date().getFullYear()>2010&&document.write("-"+new Date().getFullYear());</script>, Flaming Gorge Charters.
           </Col>
 
 

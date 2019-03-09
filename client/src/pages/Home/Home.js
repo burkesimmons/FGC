@@ -30,7 +30,8 @@ class Home extends Component {
               </Col>
               <Col className="col-6">
                 <Navbar style={{backgroundColor: 'white'}}>
-                 <h2>To book your trip, call Captain Randy at #801-633-6603</h2>
+                 <h2>To book your trip, call Captain Randy at <a href="tel:8016336603">#801-633-6603</a></h2>
+
                 </Navbar>
               </Col>
               <Col className="col-3 d-flex justify-content-end align-items-end">

@@ -1,7 +1,52 @@
-.sidePic {
+/*.sidePic {
   width: 100%;
   margin-bottom: 10px;
   padding: 2px;
   border: 4px solid black;
   background-color: white;
+}*/
+
+.list-group {
+  background-color: #f3f3f3;
+  list-style: outside none none;
+  margin: 0;
+  padding: 30px 15px 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.list-group li {
+	background-color: #fff;
+  border: 2px solid #ccc;
+  font-family: Arial,sans-serif;
+  margin: 15px;
+  padding: 0 0 25px;
+  text-align: left;
+  min-width: 270px;
+  max-width: 300px;
+}
+@media only screen and (min-width: 0px) {
+  .list-group li {
+    max-width: 100%
+  }
+}
+@media only screen and (min-width: 714px) {
+  .list-group li {
+    max-width: 45%
+  }
+}
+@media only screen and (min-width: 1032px) {
+  .list-group li {
+    max-width: 300px
+  }
+}
+
+.list-group .sidePic {
+  background-color: #ccc;
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  overflow: hidden;
 }
